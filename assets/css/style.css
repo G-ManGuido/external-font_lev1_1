@@ -1,0 +1,62 @@
+@font-face{
+font-family: kitty;
+src: url(../font/Hello\ Kitty.otf)
+
+}
+@font-face {
+    font-family: uscaptain;
+    src: url(../font/american_captain/American\ Captain.otf);
+}
+@font-face {
+    font-family: attack;
+    src: url(../font/a_attack_graffiti/aAttackGraffiti.otf);
+}
+
+@font-face {
+    font-family: grunge;
+    src: url(../font/BAD\ GRUNGE.ttf);
+}
+
+@font-face {
+    font-family: pmarker;
+    src: url(../font/Permanent_Marker/PermanentMarker-Regular.ttf);
+}
+@font-face {
+    font-family: robotomedium;
+    src: url(../font/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: rocksalt;
+    src: url(../font/Rock_Salt/RockSalt-Regular.ttf);
+}
+@font-face {
+    font-family: starjedi;
+    src: url(../font/star_jedi/starjedi/Starjedi.ttf);
+}
+
+h1{
+    font-family: pmarker;
+    background-color: #dedede;
+    text-align: center;
+}
+
+section:nth-of-type(1) p{
+    font-family: uscaptain;
+    font-size: 2rem;
+}
+main:nth-of-type(1) p{
+    font-family: attack;
+    font-size: 2rem;
+}
+aside:nth-of-type(1) p{
+    font-family: grunge;
+    font-size: 2rem;
+}
+nav:nth-of-type(1) p{
+    font-family: robotomedium;
+    font-size: 2rem;
+}
+footer:nth-of-type(1) p{
+    font-family: rocksalt;
+    font-size: 2rem;
+}
